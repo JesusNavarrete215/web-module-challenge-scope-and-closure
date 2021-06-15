@@ -43,6 +43,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+A closure is whenever you create a function within another function . 
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,9 +65,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+The closure is in line 51. 
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+Whats the same in 'dansRoll' is that its consitinly geting random rolls. We can change the function and have it be the value of a varibale.
 c. What is the lexical scope of `newRoll`? 
-
+the lexical scope would be newRoll when putting in the console.log.
 
 ### Task 3 - Stretch Goals
 
